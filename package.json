@@ -13,9 +13,7 @@
     "express-handlebars": "5.2.0"
   },
   "repository": {
-        "type": "git",
-        "url": "git+https://github.com/spacecoders-f5/XtremeCoders.git"
-    }
-   
-  
+    "type": "git",
+    "url": "git+https://github.com/spacecoders-f5/XtremeCoders.git"
+  }
 }
