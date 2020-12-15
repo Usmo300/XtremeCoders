@@ -12,7 +12,7 @@ extname: 'hbs'
 
 }));
 app.set('view engine', 'hbs');
-app.get('/',function(req, res){
+app.get('/',function(_req, res){
 res.render('home');
 
 });

@@ -16,8 +16,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spacecoders-f5/XtremeCoders.git"
+
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
+
   }
 }
