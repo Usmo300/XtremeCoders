@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Gestion coleccion de comics",
   "main": "libreria.js",
-  "scripts": {
+    "scripts": {
+    "dev": "nodemon ./views/libreria.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "spaceCoders",
@@ -15,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spacecoders-f5/XtremeCoders.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
