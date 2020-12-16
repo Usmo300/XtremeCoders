@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url("https://www.kilotela.com/wp-content/uploads/2019/09/tela-superheroes-marvel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#bloquePrincipal{
+
+    display: flex;
+    background-color: #FBF7D7;
+    margin: 10% 25%;
+    height: 80vh;
+
+}
+
+#login{
+    margin: 10% 25%;
+    height: 80vh;
+    display: block;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.bloque margin-bot{
+
+}
