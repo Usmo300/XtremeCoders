@@ -1,12 +1,12 @@
 
 //CREAMOS CONSTANTE QUE IMPORTA MONGOOSE
-const {Schema} = require ('mongoose');
+const {Schema, model} = require ('mongoose');
 
 //CREAMOS NUEVO PRODUCTO CON LAS CARACTERISTICAS {SCHEMA}
-const product = new Schema({
+const productSchema = new Schema({
     categoria: String,
     coleccion: String,
-    rutafoto: String,
+    rutafoto: Map,
     genero: String,
     autor: String,
     fecha: Date,
@@ -16,5 +16,5 @@ const product = new Schema({
     
 });
 
-//AQUI PREGUNTAR QUE ES LO QUE REALMENTE EXPORTA, LA CONSTANTE PRODUCT O EL ARCHIVO JS
-module.exports = model(product);
+//EXPORTAMOS EL SCHEMA Y LO PASAMOS A JSON.
+module.exports = model("product", productSchema);

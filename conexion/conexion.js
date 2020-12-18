@@ -6,8 +6,7 @@ const mongoose = require('mongoose');
 
 //EN ESTA LINEA USAMOS UNA DE LOS METODOS QUE TRAE MONGOOSE QUE ES EL .connect Y NOS CONECTAMOS
 //A LA BASE DE DATOS ESPECIFICADA
-mongoose.connect('mongodb://localhost/xtremecomics', {useNewUrlParser: true}, {useUnifiedTopology: 
-true});
+mongoose.connect('mongodb://localhost/xtremecomics', {useNewUrlParser: true, useUnifiedTopology: true });
 
 //Y AQUI LE DECIMOS QUE CUANDO LA CONEXION ESTE ABIERTA PUES NOS IMPRIMA EN CONSOLA CONECTADO
 mongoose.connection.on('open', _=>{

@@ -1,7 +1,7 @@
-require('./js/product');
+require('./conexion/conexion');
 
-const product = require('.model/product');
-const comic = new product({
+const Product = require('./modelos/product');
+const comic = new Product({
 
     categoria: "Los Vengadores",
     coleccion: "Civil War",
@@ -14,3 +14,5 @@ const comic = new product({
     resumen: "Los superheroes se pegan. Fin."
 
 });
+
+console.log(comic);
