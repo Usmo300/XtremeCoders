@@ -2,8 +2,8 @@ require("../conexion/conexion");
 const product = require("../modelos/product");
 
 const buscaProduct = async () =>{
-    await product.find({});
-    console.log(product);
+    const producto = await product.find({nombre:'microfono'});
+    console.log(producto);
 }
 
 buscaProduct();
