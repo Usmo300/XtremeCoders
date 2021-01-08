@@ -15,4 +15,5 @@ const comic = new Product({
 
 });
 
+
 console.log(comic);
