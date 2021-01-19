@@ -1,24 +1,22 @@
 {
-  "name": "comics",
-  "version": "1.0.0",
-  "description": "Gestion coleccion de comics",
-  "main": "libreria.js",
-  "scripts": {
-    "dev": "nodemon ./views/libreria.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "spaceCoders",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "5.2.0",
-    "mongoose": "^5.11.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/spacecoders-f5/XtremeCoders.git"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+    "name": "createComics",
+    "version": "1.0.0",
+    "description": "Proyecto XtremeCoders",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "XtremeCoders",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mongoose": "^5.11.12"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.7"
+    }
 }

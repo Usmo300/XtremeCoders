@@ -1,0 +1,20 @@
+<h1>Catalogo libros</h1>
+
+<section>
+    <ul>
+        {{#each comics}}
+            <li>Categoría: {{categoria}}</li>
+            <li>Colección: {{coleccion}}</li>
+            <li>Foto: {{rutafoto}}</li>
+            <li>Género: {{genero}}</li>
+            <li>Autor: {{autor}}</li>
+            <li>Fecha: {{fecha}}</li>
+            <li>Tomo: {{numerotomo}}</li>
+            <li>Prestado: {{prestado}}</li>
+            <li>Resumen: {{resumen}}</li>
+            <form action="/comics/delete/{{_id}}" method="GET">
+                <input type="submit" value="Borrar">
+            </form>
+        {{/each}}
+    </ul>
+</section>
