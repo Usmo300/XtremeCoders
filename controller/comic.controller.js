@@ -19,7 +19,7 @@ comicController.createNewComic = async(req, res) => { // En este caso creamos un
     res.send('Comic creado') // Le decimos que nos rendireccione a 'comics/createComic' 
 };
 // Llamamos a la constante "comicController" y creamos "deleteComic"
-comicController.deleteBook = async(req, res) => { // En este caso creamos una funcion asíncrona "async"
+comicController.deleteComic = async(req, res) => { // En este caso creamos una funcion asíncrona "async"
     await Comic.findByIdAndDelete(req.params.id) //  Usamos un metodo de mongo para buscar ID y borrar, le decimos que busque por un id https://docs.mongodb.com/manual/reference/method/js-collection/
     res.send('Comic Borrado') //Le decimos que nos muestre en pantalla 'Comic borrado'
 };
