@@ -87,3 +87,86 @@ body {
 
 }
 
+.regCategoria {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 25%;
+    font-size   : 100%;
+    text-align: center;
+    display: block;
+    
+}
+
+.regColeccion {
+
+    display: block;
+    width: 30px;
+}
+
+.regColeccion {
+
+    margin-top: 3vh;
+    display: block;
+    width: 30px;
+
+}
+
+.regGenero {
+
+    margin-top: 3vh;
+    display: block;
+    width: 30px;
+
+}
+
+.regAutor {
+    margin-top: 3vh;
+    display: block;
+    width: 30px;
+
+}
+
+.regFecha {
+    margin-top: 3vh;
+    display: block;
+    width: 30px;
+
+}
+
+.regNumtomo {
+    margin-top: 3vh;
+    display: block;
+    width: 30px;
+    
+} 
+#registroFormulario {
+    margin-left: 5% ;
+}
+
+
+#disponibilidad {
+    font-size: 90%;
+   
+
+}
+
+#bloqueDisponibilidad{
+    margin-top: 3vh;
+    font-size: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+    margin-right: 35%;
+
+}
+
+.sinopsis {
+    margin-top: 3vh;
+    font-size: 80%;
+}
+#botonesEnviar {
+    margin-top: 1vh;
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 15%;
+}
+

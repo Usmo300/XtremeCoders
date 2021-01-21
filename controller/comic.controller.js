@@ -22,7 +22,7 @@ comicController.deleteComic = async(req, res) => { // En este caso creamos una f
 
 // Llamamos a la constante "comicController" y creamos "FormCreateComic"
 comicController.formCreateComic = (req, res) => { // Creamos una funcion flecha (=>).
-    res.render('createComic') // Le decimos que nos renderice 'comics/createComic' 
+    res.render('registrotemplate') // Le decimos que nos renderice 'comics/createComic' 
         // que esta ubicado en VIEWS / COMICS / createComic.hbs
 }
 comicController.mostrarRaiz = (req,res)=>{
@@ -35,7 +35,7 @@ comicController.mostrarColeccion = (req,res)=>{
     res.render('colecciontemplate');
 }
 comicController.mostrarPrestamo = (req,res)=>{
-    res.render('prestamotemplate');
+    res.render('buscadortemplate');
 }
 
 module.exports = comicController;
