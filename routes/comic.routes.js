@@ -16,6 +16,12 @@ router.get('/comics/add', comicController.formCreateComic);
 // Utilizamos los datos enviados desde el formulario y ejecutamos createNewBook.
 router.post('/comics/createComic', comicController.createNewComic);
 
+router.get('/', comicController.mostrarRaiz);
+router.get('/addform', comicController.formCreateComic);
+router.get('/coleccion', comicController.mostrarColeccion);
+router.get('/prestamo', comicController.mostrarPrestamo);
+router.post('/menuprincipal', comicController.mostrarMenu);
+
 // READ
 
 // UPDATE

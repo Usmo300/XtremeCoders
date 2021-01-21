@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../imgs/superheroes.jpg");
+  height: 10vh;
+}
+
+footer {
+  background-image: url("../imgs/superheroes.jpg");
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1vh;
+}
+
+body {
+  background-color: #fffaca;
+  font-family: "Source Sans Pro", sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+
+
+.buscador {
+  display: flex;
+  flex-direction: column;
+  margin: 12vw;
+  align-items: center;
+}
+
+.campos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw;
+}
+
+.cajas {
+  width: 50vw;
+}
+
+.photobox {
+  margin: auto;
+}
+
+.portadas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fig-col {
+  /* margin:auto; */
+  margin-top: 5vw;
+  text-align: center;
+  justify-content: center;
+}
+
+#portada {
+  display: flex;
+  justify-content: center;
+  background-image: url("../imgs/superheroes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.bloque-margin-bot{
+
+    margin-bottom: 2rem;
+    width: 90vw;
+
+}
+

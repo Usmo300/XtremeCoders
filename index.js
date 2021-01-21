@@ -39,4 +39,5 @@ app.use(require('./routes/comic.routes'));
 app.listen(port, console.log(`Escuchando por el ${port}`));
 
 // Aqui le decimos al servidor donde estan los archivos estaticos y cual es su ruta.
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/'));
+// app.use('/css',express.static(__dirname, 'public/css'));

@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 // Creamos una constante para guardar la dirección de la DB.
-const MONGODB = 'mongodb://localhost:27017/createBook';
+const MONGODB = 'mongodb://localhost:27017/xtremecomics';
 
 
 mongoose.connect(MONGODB, {     // Conectamos con la base de datos y le pasamos como parametro MONGODB.

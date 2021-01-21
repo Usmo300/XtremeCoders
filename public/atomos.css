@@ -1,0 +1,61 @@
+.img-comic {
+  margin: auto;
+  margin-top: 10vw;
+  width: 75vw;
+  height: 50vh;
+  border-radius: 10%;
+}
+.img-collection {
+  width: 22vw;
+  height: 20vh;
+  border-radius: 10%;
+}
+.fig-col label {
+  font-size: 1.3rem;
+  font-style: bold;
+}
+
+.img-portada {
+  margin: 50% auto auto auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10%;
+}
+
+input {
+  border-radius: 9vw;
+  box-shadow: 2px 2px 2px silver;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+  font-size: 48px;
+  margin-top: 3rem;
+}
+
+.bloque-margin-bot > label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.bloque-margin-bot input {
+  border-radius: 8px;
+  height: 2rem;
+  width: 100%;
+  box-shadow: 0px 9px 11px rgba(0, 0, 0, 0.13);
+}
+
+.boton > input {
+    margin-top: 1.5rem;
+    background: #002279;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 11px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    padding: .8rem 6rem;
+    color: #fff;
+    font-weight: 900;
+}

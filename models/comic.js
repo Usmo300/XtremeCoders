@@ -5,40 +5,40 @@ const { Schema, model } = require('mongoose');
 const comicSchema = new Schema({ //Aqui dentro escribimos los parametros que va a tener nuestro libro en la base de datos.
     categoria: {
         type: String,
-        required: true
+        // required: true
     },
     coleccion: {
         type: String,
-        required: true
+        // required: true
     },
     rutafoto: {
         type: String,
-        required: true
+        // required: true
     },
     genero: {
         type: String,
-        required: true
+        // required: true
     },
     autor: {
         type: String,
-        required: true
+        // required: true
     },
 
     fecha: {
         type: Date,
-        required: true
+        // required: true
     },
     numerotomo: {
         type: Number,
-        required: true
+        // required: true
     },
     prestado: {
         type: Boolean,
-        required: true
+        // required: true
     },
     resumen: {
         type: String,
-        required: true
+        // required: true
     }
 });
 
