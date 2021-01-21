@@ -184,3 +184,41 @@ nav div{
   padding-left: 0.5rem;
 }
 
+.fotocaja{
+  display: flex;
+  flex-direction: column;
+  margin: 18vw;
+  margin-top: 5vh; 
+  align-items: center;
+}
+
+.bordeverde{
+  border-color: #92E63D;
+  border-width: 10px;
+  border-style: solid;
+}
+.datacomic{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10vw;
+  margin-top: -2.5vh;
+  margin-left: 15vw;
+}
+
+.dispo{
+  background-image: url("../imgs/pulgar_verde1.png"); 
+  margin:auto;
+}
+
+
+.resumen{
+font-family: 'Source Sans Pro', sans-serif, #87867C;
+padding-bottom: 1vh;
+}
+
+.borderojo{
+  border-color: #E64C3D;
+  border-width: 10px;
+  border-style: solid;
+}
+
