@@ -59,3 +59,42 @@ h1 {
     color: #fff;
     font-weight: 900;
 }
+
+/* MIGUEL */
+
+.selectormenu{
+  background-color: #002279;
+  font-size: 0.9rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 9px;
+  width: 7rem;
+  text-align: start;
+  color: whitesmoke;
+  box-shadow: 5px 2px 2px rgb(102, 102, 109);
+  padding-left: 0.6rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+div.añadir{
+  background-image: url(/imgs/imagenjoker.png);
+  background-size:7rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+div.biblioteca{
+  background-image: url(/imgs/imagencomics.png);
+  background-size:13rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+}
+
+div.prestamo{
+  background-image: url(/imgs/imagenspiderman.png);
+  background-size:9.5rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+}

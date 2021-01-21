@@ -170,3 +170,17 @@ body {
     margin-right: 15%;
 }
 
+/* MIGUEL */
+nav{
+  line-height: 7rem;
+  margin: 2rem;
+}
+
+nav div{
+  margin-top: 2rem;
+  background-color: #e9d04b;
+  border-radius: 1rem;
+  box-shadow: 10px 5px 5px silver;
+  padding-left: 0.5rem;
+}
+
