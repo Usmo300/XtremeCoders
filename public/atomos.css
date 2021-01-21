@@ -69,7 +69,6 @@ h1 {
   border-radius: 9px;
   width: 7rem;
   text-align: start;
-  color: whitesmoke;
   box-shadow: 5px 2px 2px rgb(102, 102, 109);
   padding-left: 0.6rem;
   padding-top: 0.4rem;
@@ -97,4 +96,9 @@ div.prestamo{
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: bottom;
+}
+
+.selectormenu a {
+  text-decoration: none;
+  color: whitesmoke;
 }
